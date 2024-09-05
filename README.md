@@ -25,4 +25,4 @@ A Chrome extension that allows users to enable or disable other extensions via k
 5. Test to see if operational
     - In `chrome://extensions/`, utitlize the keyboard shortcut, `Ctrl+Shift+E` by default
     - The chosen extension's "Toggle Icon" should be toggling
-6. If you wish to stop using the Extension Manager, simply turn off the extension off in `chrome://extensions/` by toggling the "Toggle Icon" underneath `Extension Manager`
+6. If you wish to stop using the Extension Manager, simply turn off the extension off in `chrome://extensions/` by toggling the "Toggle Icon" underneath "Extension Manager"
