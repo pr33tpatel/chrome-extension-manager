@@ -4,15 +4,30 @@
   <title>RedSage Extension Manager</title>
   <style>
     body {
+      background-color: rgba(0, 255, 179, 0.126);
       width: 300px;
       padding: 10px;
-      font-family: Arial, sans-serif;
+      font-family: 'Cascadia Mono', Arial, sans-serif;
     }
     input, button {
       margin-top: 10px;
       display: block;
       width: 100%;
       box-sizing: border-box;
+    }
+    #message {
+      display: none;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background-color: #f8f9fa;
+      color: #333;
+      font-size: 14px;
+    }
+    #currentExtension {
+      margin-top: 10px;
+      font-size: 14px;
     }
   </style>
 </head>
@@ -21,6 +36,10 @@
   <h3>Default shortcut: "Ctrl+Shift+E"</h3>
   <input type="text" id="extensionId" placeholder="Enter extension ID" />
   <button id="toggleButton">Toggle Extension</button>
+  <div id="message"></div>
+  <div id="currentExtension">
+    <p>Currently Managing: <span id="extensionName">None</span></p>
+  </div>
   <script src="popup.js"></script>
 </body>
 </html>
