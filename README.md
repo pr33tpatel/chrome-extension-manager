@@ -1,4 +1,4 @@
-# Chrome Extension Manager
+# RedSage Chrome Extension Manager
 
 Created by: Preet Patel
 
