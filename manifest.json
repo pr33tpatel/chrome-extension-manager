@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Extension Manager",
+  "name": "RedSage Extension Manager",
   "version": "1.0",
   "description": "Enable/Disable extensions using keyboard shortcuts.",
   "permissions": [
