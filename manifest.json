@@ -20,7 +20,13 @@
     }
   },
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/redsage16.png",
+      "32": "assets/redsage32.png",
+      "48": "assets/redsage48.png",
+      "128":"assets/redsage128.png"
+    }
   },
   "host_permissions": [
     "<all_urls>"
