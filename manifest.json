@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Extension Manager",
+  "version": "1.0",
+  "description": "Enable/Disable extensions using keyboard shortcuts.",
+  "permissions": [
+    "management",
+    "storage",
+    "notifications"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "toggle-extension": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+E"
+      },
+      "description": "Toggle Extension On/Off"
+    }
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
